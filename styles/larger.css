@@ -2,7 +2,7 @@
     header, main, nav, footer {
         max-width: 100%;
         margin: auto 0;
-        font-size: large;
+        font-size: larger;
     }
 
     header {

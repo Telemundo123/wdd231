@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a home page for WDD231 course projects">
+    <meta name="author" content="Davis RUKUNDO">
+    <title>WDD231 - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/homepage.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/square-d.svg" alt="Logo" height="30" width="30">
+        <span>Davis' Page</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-links" class="navigation">
+        <ul>   
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamberprojects.html">Chamber Projects</a></li>
+            <li><a href="finalproject.html">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About</h2>
+            <p>As a Software Development student at BYU-Idaho, I build resilient, scalable systems that bridge the gap between innovation and security. I am driven by a mission to combat global cyber threats through proactive protection and rigorous software testing. My goal is to engineer reliable digital environments that safeguard information and stand strong against the evolving landscape of modern hacking.</p>
+
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.JPG" alt="Student Photo" width="300" height="400">
+        </section>
+        <section class="certificates">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+              <button data-filter="all">All</button>
+              <button data-filter="cse">CSE</button>
+              <button data-filter="wdd">WDD</button>
+            </div>
+
+            <div id="course-cards"></div>
+            <p id="total-credits"></p>
+        </section>
+    </main>
+    <footer>
+        <nav class="social media">
+            <a href="https://www.linkedin.com/in/davis-rukundo-850411240/"><img src="images/LinkedIn-icon.svg" alt="LinkedIn" width="80px"></a>
+            <a href="https://github.com/repos"><img src="images/github-icon.svg" alt="GitHub" width="80px"></a>
+            <a href="https://x.com/rukundodavis7"><img src="images/X-icon.svg" alt="Twitter" width="80px"></a>
+        </nav>
+        <p>©️<span id="currentyear"></span> 🌺Davis Rukundo🌺 Rwanda</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

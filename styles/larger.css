@@ -1,0 +1,52 @@
+@media only screen and (min-width:44rem) {
+    header, main, nav, footer {
+        max-width: 100%;
+        margin: auto 0;
+        font-size: large;
+    }
+
+    header {
+        grid-template-columns: 40px auto;
+    }
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        background-color: rgb(23, 21, 21);
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .navigation li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .navigation li a:hover {
+        text-decoration: underline;
+        color: orange;
+    
+    }
+    .about p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    #total-credits {
+        margin-left: auto;
+        margin-right: auto;
+        width: 13%; 
+    }
+    .current {
+        background-color: rgb(49, 5, 93);
+    } 
+}

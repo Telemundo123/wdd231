@@ -1,0 +1,72 @@
+@media (min-width: 700px) {
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: end;
+    font-size: 1.3rem;
+  }
+
+  nav a:hover {
+    font-weight: 600;
+    color: gold;
+    text-decoration: underline;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+  }
+  
+   main h2 {
+    text-align: center;
+   }
+   .view-buttons button {
+    align-items: center;
+    background-color: black;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+   }
+
+  #menu-btn {
+    display: none;
+  }
+
+  #directory-container.grid-view {
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+  }
+
+  #directory-container.list-view {
+    display: block;
+  }
+
+  .member-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .member-card img {
+    width: 120px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-info {
+    text-align: left;
+    margin-left: 20%;
+  }
+  .footer-dev {
+    text-align: left;
+    margin-left: 20%;
+  }
+
+}

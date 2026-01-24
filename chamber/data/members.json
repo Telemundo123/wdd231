@@ -1,0 +1,72 @@
+[
+  {
+    "name": "GreenHive Logistics Ltd",
+    "tagline": "Moving Kigali Forward",
+    "phone": "+250 788 100 200",
+    "url": "https://greenhive.rw",
+    "address": "KG 200 St, Kigali",
+    "image": "greenhive.png",
+    "level": "Gold",
+    "levelClass": "gold"
+  },
+  {
+    "name": "Kigali FinTech Solutions",
+    "tagline": "Empowering Digital Finance",
+    "phone": "+250 788 200 300",
+    "url": "https://kigalifintech.rw",
+    "address": "KN 45 Ave, Nyarugenge",
+    "image": "kigali-fin-teck.png",
+    "level": "Silver",
+    "levelClass": "silver"
+  },
+  {
+    "name": "EcoBuild Rwanda",
+    "tagline": "Eco-Friendly Infrastructure",
+    "phone": "+250 788 300 400",
+    "url": "https://ecobuild.rw",
+    "address": "KG 52 Kimironko",
+    "image": "eco-build.jpg",
+    "level": "Member",
+    "levelClass": "member"
+  },
+  {
+    "name": "Apex Medical Supplies",
+    "tagline": "Reliable Health Logistics",
+    "phone": "+250 788 400 500",
+    "url": "https://apexmedical.rw",
+    "address": "KN 19 Kacyiru",
+    "image": "apexmedical.jpg",
+    "level": "Gold",
+    "levelClass": "gold"
+  },
+  {
+    "name": "Blockchain Africa Hub",
+    "tagline": "Decentralizing Innovation",
+    "phone": "+250 788 500 600",
+    "url": "https://blockchainhub.rw",
+    "address": "KN Cyber Park",
+    "image": "blockchain-africa.jpg",
+    "level": "Silver",
+    "levelClass": "silver"
+  },
+  {
+    "name": "Safi Catering Services",
+    "tagline": "Taste of Rwanda",
+    "phone": "+250 788 600 700",
+    "url": "https://saficatering.rw",
+    "address": "KG 77 Kicukiro",
+    "image": "safi-catering.jpg",
+    "level": "Member",
+    "levelClass": "member"
+  },
+  {
+    "name": "DataWave Analytics",
+    "tagline": "Insight for Growth",
+    "phone": "+250 788 700 800",
+    "url": "https://datawave.rw",
+    "address": "KN 78 Gishushu",
+    "image": "datawave.webp",
+    "level": "Gold",
+    "levelClass": "gold"
+  }
+]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kigali Chamber of Commerce | Directory</title>
+<meta name="description" content="Kigali Chamber of Commerce business directory for Kigali-based companies and organizations.">
+<meta name="author" content="Davis Rukundo">
+
+<!-- Facebook / Open Graph -->
+<meta property="og:title" content="Kigali Chamber of Commerce Directory">
+<meta property="og:description" content="Explore Kigali businesses, services, and industries.">
+<meta property="og:image" content="images/chamber-og.png">
+<meta property="og:url" content="https://yourdomain/kigali-chamber/directory.html">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="images/k-icon.png">
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+
+<script defer src="scripts/directory.js"></script>
+</head>
+
+<body>
+<header>
+  <div class="logo">
+    <img src="images/k-icon.png" alt="icon" width="80" height="80">
+  </div>
+  <div class="page-title"> 
+    <h1>Kigali Chamber of Commerce</h1>
+  </div>
+  <button id="menu-btn">&#9776;</button>
+  <nav id="main-nav">
+    <a href="index.html">Home</a>
+    <a href="directory.html" class="active">Directory</a>
+    <a href="join.html">Join</a>
+    <a href="discover.html">Discover</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+    <h2>Business Directory</h2>
+
+    <div class="view-buttons">
+        <button id="grid-btn">Grid</button>
+        <button id="list-btn">List</button>
+    </div>
+
+    <div id="directory-container" class="grid-view">
+        <!-- Members populate here via JS -->
+    </div>
+</main>
+
+<footer>
+    <section class="footer-info">
+        <h3>Kigali Chamber of Commerce</h3>
+        <p>10 Avenue de Kigali</p>
+        <p>Kigali, Rwanda</p>
+        <p>Email: info@kigalichamber.org</p>
+        <p>Phone: +250 788 000 000</p>
+    </section>
+    
+    <div class="social media">
+      <a href="https://www.linkedin.com/in/davis-rukundo-850411240/"><img src="images/LinkedIn-icon.svg" alt="LinkedIn" width="80"></a>
+      <a href="https://www.youtube.com/@davisrukundo9233"><img src="images/youtube.png" alt="Youtube" width="80"></a>
+      <a href="https://x.com/rukundodavis7"><img src="images/twitter.png" alt="Twitter" width="80"></a>
+    </div>
+
+    <section class="footer-dev">
+        <p>&copy; <span id="year"></span> Kigali Chamber of Commerce</p>
+        <p>WDD231 | Davis Rukundo</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </section>
+</footer>
+
+</body>
+</html>

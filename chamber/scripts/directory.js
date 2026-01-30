@@ -10,10 +10,12 @@ menuBtn.addEventListener('click', () => {
 });
 
 // layout toggle
-gridBtn.addEventListener('click', () => {
-  container.classList.add('grid-view');
-  container.classList.remove('list-view');
-});
+if (gridBtn && container) {
+  gridBtn.addEventListener('click', () => {
+    container.classList.add('grid-view');
+    container.classList.remove('list-view');
+  });
+}
 
 listBtn.addEventListener('click', () => {
   container.classList.add('list-view');

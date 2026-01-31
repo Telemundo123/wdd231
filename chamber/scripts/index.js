@@ -68,6 +68,7 @@ async function loadSpotlights() {
       <h3>${member.name}</h3>
       <p>${member.tagline}</p>
       <img src="images/${member.image}" alt="${member.name}">
+      <p class="label">${member.level}</p>
       <p><strong>PHONE:</strong> ${member.phone}</p>
       <p><strong>ADDRESS:</strong> ${member.address}</p>
       <p><strong>URL:</strong> <a href="${member.url}" target="_blank">${member.url}</a></p>

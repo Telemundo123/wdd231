@@ -164,38 +164,42 @@ main {
 }
 
 /* ===== EVENTS ===== */
-.events {
+.card-events {
   background: #e5e5e5;
   border-radius: 6px;
 }
 
-.events h2 {
+.card-events h2 {
   background: #333;
   color: #fff;
   margin: 0;
   padding: 0.5rem;
   font-size: 1.3rem;
+  border-top-left-radius: 6px ;
+  border-top-right-radius: 6px ;
 
 }
 
-.events p {
+.card-events p {
   padding: 0.75rem;
   margin: 0;
   font-size: 1.1rem;
 }
 
 /* ===== WEATHER ===== */
-.weather {
+.card-weather {
   background: #e5e5e5;
   border-radius: 6px;
 }
 
-.weather h2 {
+.card-weather h2 {
   background: #333;
   color: #fff;
   margin: 0;
   padding: 0.5rem;
   font-size: 1.3rem;
+  border-top-left-radius: 6px ;
+  border-top-right-radius: 6px ;
 }
 
 #current-weather {
@@ -214,6 +218,8 @@ main {
 }
 #forecast-section h2 {
   font-size: 1.3rem;
+  border-top-left-radius: 6px ;
+  border-top-right-radius: 6px ;
 }
 
 #forecast p {
@@ -322,4 +328,14 @@ main {
   color: #000;
   text-decoration: none;
   font-size: 1rem;
+}
+
+p.label {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  width: 200px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
 }

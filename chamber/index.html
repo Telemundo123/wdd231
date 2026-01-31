@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Kigali Chamber of Commerce | Directory</title>
-<meta name="description" content="Kigali Chamber of Commerce business directory for Kigali-based companies and organizations.">
-<meta name="author" content="Davis Rukundo">
+  <title>Kigali Chamber of Commerce | Directory</title>
+  <meta name="description" content="Official business directory of the Kigali Chamber of Commerce.">
+  <meta name="author" content="Davis Rukundo">
 
-<!-- Facebook / Open Graph -->
-<meta property="og:title" content="Kigali Chamber of Commerce Directory">
-<meta property="og:description" content="Explore Kigali businesses, services, and industries.">
-<meta property="og:image" content="images/chamber-og.png">
-<meta property="og:url" content="https://yourdomain/kigali-chamber/directory.html">
-<meta property="og:type" content="website">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kigali Chamber of Commerce Directory">
+  <meta property="og:description" content="Discover registered businesses and partners in Kigali.">
+  <meta property="og:image" content="https://yourdomain/images/chamber-og-1200x630.webp">
+  <meta property="og:url" content="https://yourdomain/directory.html">
+  <meta property="og:type" content="website">
 
-<link rel="icon" href="images/k-icon.png">
+  <link rel="icon" href="images/k-icon.png">
 
-<link rel="stylesheet" href="styles/normalize.css">
-<link rel="stylesheet" href="styles/small.css">
-<link rel="stylesheet" href="styles/large.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<script defer src="scripts/directory.js"></script>
-<script defer src="scripts/index.js"></script>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <script defer src="scripts/index.js"></script>
+  <script defer src="scripts/directory.js"></script>
 </head>
 <body>
-    <header>
+      <header>
         <div class="logo">
-          <img src="images/k-icon.png" alt="icon" width="80" height="80">
+          <img src="images/k-icon.png" alt="Kigali Chamber of Commerce logo" width="80" height="80">
         </div>
-        <div class="page-title"> 
-          <h1>Kigali Chamber of Commerce</h1>
-        </div>
-        <button id="menu-btn">&#9776;</button>
+        <h1>Kigali Chamber of Commerce</h1>
+        <button id="menu-btn" aria-label="Open navigation menu">&#9776;</button>
         <nav id="main-nav">
           <a href="index.html" class="active">Home</a>
           <a href="directory.html">Directory</a>
@@ -44,18 +47,18 @@
 
       <main>
         <section class="hero">
-          <img src="images/kigali-city.webp" alt="Kigali City">
+          <img src="images/kigali-city.webp" alt="Kigali city skyline">
           <a href="join.html" class="cta">Join the Chamber</a>
         </section>
       
         <section class="home-grid">
-          <section class="card events">
+          <section class="card-events">
             <h2>Current Events</h2>
             <p>Business networking summit – Kigali Convention Center</p>
             <p>SME Digital Transformation Workshop</p>
           </section>
       
-          <section class="card weather">
+          <section class="card-weather">
             <h2>Current Weather</h2>
             <div id="current-weather">
               <p><span id="temp"></span> °C</p>
@@ -93,5 +96,6 @@
             <p>WDD231 | Davis Rukundo</p>
             <p>Last Modified: <span id="last-modified"></span></p>
         </section>
-    </footer>
+      </footer>
 </body>
+</html>

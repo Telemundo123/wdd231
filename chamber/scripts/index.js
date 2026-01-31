@@ -1,3 +1,11 @@
+const nav = document.querySelector('#main-nav');
+const menuBtn = document.querySelector('#menu-btn');
+
+// mobile toggle
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('open');
+});
+
 const apiKey = "005fcccc397ff271f4f0bd03a6579098";
 const lat = -1.9548321057580769;
 const lon = 30.064960907483062;

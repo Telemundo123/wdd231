@@ -309,6 +309,7 @@ main {
 
 .business-card img {
   width: 10rem;
+  height: auto;
   margin: 0.5rem auto;
 }
 

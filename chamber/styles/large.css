@@ -102,5 +102,9 @@
     gap: 1rem;
     text-align: right;
   }
+
+  .join-container {
+    grid-template-columns: 2fr 1fr;
+}
   
 }

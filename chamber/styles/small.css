@@ -445,5 +445,101 @@ dialog::backdrop {
   text-align: center;
 }
 
+/* styles of the discover page */
+
+.visitor-msg {
+  background-color: #d4efdf;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Grid Container holding the cards */
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8";
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card figure {
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card:hover img {
+  filter: brightness(80%) contrast(1.1);
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin: 0.5rem 0;
+}
+
+.card address {
+  font-style: normal;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.card button {
+  margin-top: auto;
+  padding: 0.5rem;
+  background-color: #1f4d3a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #16392b;
+}
+
+/* this is the style for Medium screens from 641-1024*/
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid-container {
+      grid-template-areas:
+          "card1 card2"
+          "card3 card4"
+          "card5 card6"
+          "card7 card8";
+  }
+}
+
+/* on screens Larger than 1025px styles for the cards*/
+@media (min-width: 1025px) {
+  .grid-container {
+      grid-template-areas:
+          "card1 card2 card3 card4"
+          "card5 card6 card7 card8";
+  }
+}
+
+
 
 

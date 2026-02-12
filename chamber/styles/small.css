@@ -124,6 +124,10 @@ footer {
   text-align: center;
 }
 
+.footerh2 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
 /* CSS for the main element which include the weather sections and the member cards */
 
 /* ===== MAIN (Mobile-first) ===== */

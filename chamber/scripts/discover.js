@@ -14,16 +14,25 @@ const container = document.getElementById("cards-container");
 items.forEach((item, index) => {
     const card = document.createElement("div");
     card.classList.add("card");
-    card.style.gridArea = `card${index+1}`;
+
     card.innerHTML = `
         <h2>${item.title}</h2>
-        <figure><img src="${item.image}" alt="${item.title}"></figure>
+        <figure>
+            <img 
+                src="${item.image}" 
+                alt="${item.title}" 
+                loading="lazy"
+                width="300"
+                height="200">
+        </figure>
         <address>${item.address}</address>
         <p>${item.description}</p>
         <button>Learn More</button>
     `;
+
     container.appendChild(card);
 });
+
 
 // Visitor localStorage logic
 const msgContainer = document.getElementById("visitor-msg");

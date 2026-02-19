@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Davis Rukundo">
+<meta name="description" content="Browse and filter mental health clinics by district.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/clinic-logo2.png">
+<link rel="stylesheet" href="styles/m-clinic.css">
+<title>Mental Health Services Locator | Clinics</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="images/clinic-logo2.png" alt="Logo" height="30" width="30">
+    <h1>MH clinic Locator</h1>
+    <button id="ham-btn" class="hamburger"></button>
+  </header>
+  <nav id="nav-links" class="navigation">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="clinics.html" class="current">Clinics</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul> 
+  </nav>
+<main>
+
+<h1>Clinics Directory</h1>
+
+<label for="filter">Filter by District:</label>
+<select id="filter">
+  <option value="all">All</option>
+</select>
+
+<section id="clinicsContainer" class="grid"></section>
+
+<dialog id="clinicModal">
+  <div id="modalContent"></div>
+  <button id="closeModal">Close</button>
+</dialog>
+
+</main>
+
+<footer>
+  <nav class="social media">
+      <a href="https://www.linkedin.com/in/davis-rukundo-850411240/"><img src="images/LinkedIn-icon.svg" alt="LinkedIn" width="80"></a>
+      <a href="https://github.com/repos"><img src="images/github-icon.svg" alt="GitHub" width="80"></a>
+      <a href="https://x.com/rukundodavis7"><img src="images/X-icon.svg" alt="Twitter" width="80"></a>
+  </nav>
+  <p>©️<span id="currentyear"></span> 🌺Davis Rukundo🌺 Rwanda</p>
+  <p id="lastModified"></p>
+  <a href="https://www.loom.com/share/722521451cc44acfb093a38d37e46347">Demonstration Video</a>
+</footer>
+
+<script type="module" src="scripts/clinics.js"></script>
+</body>
+</html>

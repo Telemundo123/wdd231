@@ -1,0 +1,108 @@
+[
+    {
+      "name": "Kigali Mental Health Center",
+      "district": "Gasabo",
+      "services": "Psychiatry, Counseling, Depression Treatment",
+      "phone": "0788000001",
+      "address": "KG 123 St, Kigali"
+    },
+    {
+      "name": "Hope Psychiatric Clinic",
+      "district": "Kicukiro",
+      "services": "Therapy, Addiction Support, Anxiety Management",
+      "phone": "0788000002",
+      "address": "KK 45 Ave, Kigali"
+    },
+    {
+      "name": "Serenity Mental Wellness",
+      "district": "Nyarugenge",
+      "services": "Child Psychology, Family Therapy",
+      "phone": "0788000003",
+      "address": "KN 78 Rd, Kigali"
+    },
+    {
+      "name": "Huye Behavioral Health Clinic",
+      "district": "Huye",
+      "services": "Psychiatric Evaluation, Trauma Counseling",
+      "phone": "0788000004",
+      "address": "Main Street, Huye"
+    },
+    {
+      "name": "Musanze Psychiatric Services",
+      "district": "Musanze",
+      "services": "Substance Abuse Treatment, Therapy",
+      "phone": "0788000005",
+      "address": "Northern Ave, Musanze"
+    },
+    {
+      "name": "Rubavu Mental Care Center",
+      "district": "Rubavu",
+      "services": "Stress Management, Counseling",
+      "phone": "0788000006",
+      "address": "Lake Road, Rubavu"
+    },
+    {
+      "name": "Rwamagana Wellness Clinic",
+      "district": "Rwamagana",
+      "services": "Adolescent Therapy, Depression Support",
+      "phone": "0788000007",
+      "address": "East Province Rd, Rwamagana"
+    },
+    {
+      "name": "Nyagatare Counseling Center",
+      "district": "Nyagatare",
+      "services": "Community Psychiatry, Trauma Care",
+      "phone": "0788000008",
+      "address": "Central Market Rd, Nyagatare"
+    },
+    {
+      "name": "Muhanga Mental Health Services",
+      "district": "Muhanga",
+      "services": "Anxiety Treatment, Therapy Sessions",
+      "phone": "0788000009",
+      "address": "Southern Highway, Muhanga"
+    },
+    {
+      "name": "Gicumbi Psychiatric Unit",
+      "district": "Gicumbi",
+      "services": "Inpatient Care, Crisis Intervention",
+      "phone": "0788000010",
+      "address": "Northern Province Rd, Gicumbi"
+    },
+    {
+      "name": "Bugesera Mental Health Clinic",
+      "district": "Bugesera",
+      "services": "Counseling, PTSD Support",
+      "phone": "0788000011",
+      "address": "Airport Road, Bugesera"
+    },
+    {
+      "name": "Karongi Behavioral Clinic",
+      "district": "Karongi",
+      "services": "Family Therapy, Mental Health Screening",
+      "phone": "0788000012",
+      "address": "Lake Kivu Rd, Karongi"
+    },
+    {
+      "name": "Rusizi Psychiatric Center",
+      "district": "Rusizi",
+      "services": "Psychiatry, Medication Management",
+      "phone": "0788000013",
+      "address": "Western Border Rd, Rusizi"
+    },
+    {
+      "name": "Ngoma Counseling Services",
+      "district": "Ngoma",
+      "services": "Youth Counseling, Addiction Therapy",
+      "phone": "0788000014",
+      "address": "Eastern Rd, Ngoma"
+    },
+    {
+      "name": "Kayonza Mental Wellness Center",
+      "district": "Kayonza",
+      "services": "Community Mental Health, Therapy",
+      "phone": "0788000015",
+      "address": "Main Market St, Kayonza"
+    }
+  ]
+  

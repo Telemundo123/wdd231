@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submission Received | MH Clinic Locator</title>
+
+<style>
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.thankyou-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.thankyou-card h1 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.thankyou-card p {
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.data-display {
+  background: #f1f5f9;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.data-display strong {
+  color: #1e293b;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="thankyou-card">
+  <h1>Thank You!</h1>
+  <p>Your message has been successfully submitted. We appreciate you reaching out to MH Clinic Locator.</p>
+
+  <div class="data-display" id="submittedData"></div>
+
+  <button onclick="window.location.href='about.html'">Back to About Page</button>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+
+  const name = params.get("name");
+  const email = params.get("email");
+  const subject = params.get("subject");
+  const message = params.get("message");
+
+  const display = document.getElementById("submittedData");
+
+  display.innerHTML = `
+    <p><strong>Name:</strong> ${name}</p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Subject:</strong> ${subject}</p>
+    <p><strong>Message:</strong> ${message}</p>
+  `;
+</script>
+
+</body>
+</html>
